@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+.dropbox {
+    box-shadow: 8px 8px #031926;
+    border: 3px solid #031926;
+}

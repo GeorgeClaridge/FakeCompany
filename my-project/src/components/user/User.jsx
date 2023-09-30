@@ -1,3 +1,4 @@
+import {  UserHeader } from './import';
 import './user.css';
 
 const User = () => {
@@ -9,12 +10,17 @@ const User = () => {
 
       <div className='bg-green dropbox p-5 rounded-lg'> 
 
-        <div className="flex">
-          <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
-          <div className='box'>
-            <div className="header">John Smith</div>
-            <div className="subheader">New York</div>
+        <div className="flex justify-between">
+          <div className='flex'>
+            <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
+            <div className='box'>
+              <div className="header">John Smith</div>
+              <div className="subheader">New York</div>
+            </div>
           </div>
+
+          <img className='-mt-16 h-32' src={ UserHeader} alt="" />
+
         </div>
 
         <div className="paragraph pt-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
@@ -22,12 +28,17 @@ const User = () => {
 
       <div className='bg-green dropbox p-5 rounded-lg'> 
 
-        <div className="flex">
-          <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
-          <div className='box'>
-            <div className="header">John Smith</div>
-            <div className="subheader">New York</div>
+        <div className="flex justify-between">
+          <div className='flex'>
+            <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
+            <div className='box'>
+              <div className="header">John Smith</div>
+              <div className="subheader">New York</div>
+            </div>
           </div>
+
+          <img className='-mt-16 h-32' src={ UserHeader} alt="" />
+
         </div>
 
         <div className="paragraph pt-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
@@ -35,12 +46,17 @@ const User = () => {
 
       <div className='bg-green dropbox p-5 rounded-lg'> 
 
-        <div className="flex">
-          <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
-          <div className='box'>
-            <div className="header">John Smith</div>
-            <div className="subheader">New York</div>
+        <div className="flex justify-between">
+          <div className='flex'>
+            <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
+            <div className='box'>
+              <div className="header">John Smith</div>
+              <div className="subheader">New York</div>
+            </div>
           </div>
+
+          <img className='-mt-16 h-32' src={ UserHeader} alt="" />
+
         </div>
 
         <div className="paragraph pt-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>

@@ -7,25 +7,25 @@ const Product = () => {
       <div className="box bg-green dropbox rounded-xl p-5">
         <div className="header font-space text-4xl">Design UX/UI with a personality</div>
         <div className="paragraph py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-        <button className='bg-orange font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
+        <button className='bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
       </div>
 
       <div className="box bg-green dropbox rounded-xl p-5">
         <div className="header font-space text-4xl">Design UX/UI with a personality</div>
         <div className="paragraph py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-        <button className='bg-orange font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
+        <button className='bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
       </div>
 
       <div className="box bg-green dropbox rounded-xl p-5">
         <div className="header font-space text-4xl">Design UX/UI with a personality</div>
         <div className="paragraph py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-        <button className='bg-orange font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
+        <button className='bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
       </div>
 
       <div className="box bg-green dropbox rounded-xl p-5">
         <div className="header font-space text-4xl">Design UX/UI with a personality</div>
         <div className="paragraph py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-        <button className='bg-orange font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
+        <button className='bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl'>Learn More</button>
       </div>
     </div>
   )

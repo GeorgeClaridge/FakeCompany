@@ -3,7 +3,7 @@ import './user.css';
 
 const User = () => {
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 px-4 md:px-20 xl:px-60 py-10 md:py-20'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 px-2 md:px-20 xl:px-60 py-10 md:py-20'>
       <div className='card'> 
         <div className="paragraph pt-4 font-space text-4xl">We would love to help you with UX/UI & Brand-Identity Design and help you kickstart your business.</div>
       </div>

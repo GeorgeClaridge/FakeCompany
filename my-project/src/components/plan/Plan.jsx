@@ -1,9 +1,9 @@
 import './plan.css';
-import { Background } from './import';
+import { BackgroundDouble } from './import';
 
 const Plan = () => {
   return (
-    <div className='grid grid-cols-1 gap-12 lg:grid-cols-3 bg-green px-4 md:px-20 xl:px-60 py-10 md:py-20 bg-no-repeat bg-bottom'  style={{ backgroundImage: `url(${Background})` }} >
+    <div className='grid grid-cols-1 gap-12 lg:grid-cols-3 bg-green px-4 md:px-20 xl:px-60 py-10 md:py-20 bg-no-repeat bg-center'  style={{ backgroundImage: `url(${BackgroundDouble})` }} >
 
       <div className="card dropbox">
 
@@ -25,7 +25,7 @@ const Plan = () => {
       <div className="card dropbox">
 
         <div className="flex justify-between bg-purple py-2 px-4 border-b-[3px] border-black">
-          <div className="header font-space">FREE</div>
+          <div className="header font-space">STANDARD</div>
           <div className="image font-space">X</div>
         </div>
 
@@ -42,7 +42,7 @@ const Plan = () => {
       <div className="card dropbox">
 
         <div className="flex justify-between bg-purple py-2 px-4 border-b-[3px] border-black">
-          <div className="header font-space">FREE</div>
+          <div className="header font-space">PRO</div>
           <div className="image font-space">X</div>
         </div>
 

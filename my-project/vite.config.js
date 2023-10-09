@@ -4,6 +4,7 @@ import webfontDownload from 'vite-plugin-webfont-dl';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/FakeCompany/",
   plugins: [react(),
   webfontDownload()]
 })

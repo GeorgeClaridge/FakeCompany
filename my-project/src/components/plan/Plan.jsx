@@ -3,7 +3,7 @@ import { BackgroundDouble } from './import';
 
 const Plan = () => {
   return (
-    <div className='grid grid-cols-1 gap-12 lg:grid-cols-3 bg-green px-4 md:px-20 xl:px-60 py-10 md:py-20 bg-no-repeat bg-center'  style={{ backgroundImage: `url(${BackgroundDouble})` }} >
+    <div className='grid grid-cols-1 gap-12 lg:grid-cols-3 bg-green px-4 md:px-20 xl:px-60 py-10 md:py-20 bg-no-repeat bg-center bg-cover'  style={{ backgroundImage: `url(${BackgroundDouble})` }} >
 
       <div className="card dropbox">
 

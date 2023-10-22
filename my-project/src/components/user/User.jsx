@@ -1,4 +1,4 @@
-import {  UserHeader } from './import';
+import {  UserHeaderOne, UserHeaderTwo, UserHeaderThree, Profile } from './import';
 import './user.css';
 
 const User = () => {
@@ -12,14 +12,14 @@ const User = () => {
 
         <div className="flex justify-between">
           <div className='flex'>
-            <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
-            <div className='box'>
-              <div className="header font-bold font-space text-xl">John Smith</div>
-              <div className="subheader font-bold font-space text-lg">New York</div>
+            <img src={Profile} alt="Profile" className='rounded-full border-[3px] w-16 h-16 mr-4'/>
+            <div className='User'>
+              <div className="Name font-bold font-space text-xl">John Smith</div>
+              <div className="Title font-bold font-space text-lg">New York</div>
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeader} alt="" />
+          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
 
         </div>
 
@@ -30,14 +30,14 @@ const User = () => {
 
         <div className="flex justify-between">
           <div className='flex'>
-            <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
-            <div className='box'>
-              <div className="header font-space text-xl">John Smith</div>
-              <div className="font-bold font-space text-lg">New York</div>
+            <img src={Profile} alt="Profile" className='rounded-full border-[3px] w-16 h-16 mr-4'/>
+            <div className='User'>
+              <div className="Name font-bold font-space text-xl">John Smith</div>
+              <div className="Title font-bold font-space text-lg">New York</div>
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeader} alt="" />
+          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
 
         </div>
 
@@ -48,14 +48,14 @@ const User = () => {
 
         <div className="flex justify-between">
           <div className='flex'>
-            <div className="circle rounded-full w-16 h-16 bg-orange border-[3px] mr-4"></div>
-            <div className='box'>
-              <div className="header font-space text-xl">John Smith</div>
-              <div className="font-bold font-space text-lg">New York</div>
+            <img src={Profile} alt="Profile" className='rounded-full border-[3px] w-16 h-16 mr-4'/>
+            <div className='User'>
+              <div className="Name font-bold font-space text-xl">John Smith</div>
+              <div className="Title font-bold font-space text-lg">New York</div>
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeader} alt="" />
+          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
 
         </div>
 

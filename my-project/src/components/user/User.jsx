@@ -23,7 +23,7 @@ const User = () => {
 
         </div>
 
-        <div className="paragraph pt-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
+        <div className="paragraph pt-4 leading-relaxed">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
       </div>
 
       <div className='bg-green dropbox p-5 rounded-2xl'> 
@@ -37,11 +37,11 @@ const User = () => {
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
+          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderTwo } alt="" />
 
         </div>
 
-        <div className="paragraph pt-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
+        <div className="paragraph pt-4 leading-relaxed">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
       </div>
 
       <div className='bg-green dropbox p-5 rounded-2xl'> 
@@ -55,11 +55,11 @@ const User = () => {
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
+          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderThree } alt="" />
 
         </div>
 
-        <div className="paragraph pt-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
+        <div className="paragraph pt-4 leading-relaxed">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”</div>
       </div>
 
     </div>

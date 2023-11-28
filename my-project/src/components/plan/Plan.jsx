@@ -14,7 +14,7 @@ const Plan = () => {
 
         <div className="paragraph p-4 bg-white">
           <div className="header font-space py-2 text-2xl">INSIDE HEADER</div>
-          <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+          <div className="text leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
           <div className='flex justify-center'>
             <button className='bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl'>JOIN NOW</button>
           </div>
@@ -31,7 +31,7 @@ const Plan = () => {
 
         <div className="paragraph p-4 bg-white">
           <div className="header font-space py-2 text-2xl">INSIDE HEADER</div>
-          <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+          <div className="text leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
           <div className='flex justify-center'>
             <button className='bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl'>JOIN NOW</button>
           </div>
@@ -48,7 +48,7 @@ const Plan = () => {
 
         <div className="paragraph p-4 bg-white">
           <div className="header font-space py-2 text-2xl">INSIDE HEADER</div>
-          <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+          <div className="text leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
           <div className='flex justify-center'>
             <button className='bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl'>JOIN NOW</button>
           </div>

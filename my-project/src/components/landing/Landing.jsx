@@ -8,13 +8,13 @@ const Landing = () => {
       style={{ backgroundImage: `url(${Background})` }}
     >
       <div className="text-center py-10 md:py-20">
-        <div className="flex justify-center">
+        <div className="flex justify-center group">
           <div className="-ml-2 -mt-8 w-14 h-14"></div>
           <div className="Header text-4xl md:text-6xl font-space bg-no-repeat tracking-tight">
             How Lovable
           </div>
           <img
-            className="-ml-2 -mt-6 md:-mt-8 w-10 h-10 md:w-14 md:h-14"
+            className="-ml-2 -mt-6 md:-mt-8 w-10 h-10 md:w-14 md:h-14 group-hover:scale-110 group-hover:translate-x-1 group-hover:-translate-y-1 duration-200"
             src={HeartArrow}
             alt=""
           />

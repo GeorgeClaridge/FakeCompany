@@ -37,7 +37,7 @@ const User = () => {
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
+          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderTwo } alt="" />
 
         </div>
 
@@ -55,7 +55,7 @@ const User = () => {
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
+          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderThree } alt="" />
 
         </div>
 

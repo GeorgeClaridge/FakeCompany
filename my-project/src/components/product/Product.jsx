@@ -1,5 +1,5 @@
 import "./product.css";
-import { Data, Mobile } from "./import";
+import { Data, Build } from "./import";
 
 const Product = () => {
   return (
@@ -20,36 +20,28 @@ const Product = () => {
         </button>
       </div>
 
-      <div className="box bg-green dropbox rounded-2xl p-5">
-        <div className="header font-space text-4xl">
-          Design UX/UI with a personality
+      <div className="card dropbox">
+
+        <div className="flex justify-between bg-orange py-2 px-4 border-b-[3px] border-black">
+          <div className="header font-space">Get In The Flow With Wubble</div>
         </div>
-        <div className="paragraph pb-2 pt-4 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam.
+
+        <div className="paragraph p-4 bg-white">
+          <img src={Build} alt="" />
         </div>
-        <button className="bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl">
-          Learn More
-        </button>
+
       </div>
 
-      <div className="box bg-green dropbox rounded-2xl p-5">
-        <div className="header font-space text-4xl">
-          Design UX/UI with a personality
+      <div className="card dropbox">
+
+        <div className="flex justify-between bg-purple py-2 px-4 border-b-[3px] border-black">
+          <div className="header font-space">We Understand How Important Data Is</div>
         </div>
-        <div className="paragraph pb-2 pt-4 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam.
+
+        <div className="paragraph p-4 bg-white">
+          <img className='' src={Data} alt="" />
         </div>
-        <button className="bg-orange hover:bg-purple duration-300 font-space dropbox my-2 px-4 py-2 text-2xl">
-          Learn More
-        </button>
+
       </div>
 
       <div className="box bg-green dropbox rounded-2xl p-5">

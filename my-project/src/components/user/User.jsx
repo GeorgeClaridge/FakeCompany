@@ -16,8 +16,8 @@ const User = () => {
         </div>
       </div>
 
-      <div className="bg-green dropbox p-5 rounded-2xl">
-        <div className="flex justify-between">
+      <div className="bg-green dropbox p-5 rounded-2xl group">
+        <div className="flex justify-between group">
           <div className="flex">
             <img
               src={Profile}
@@ -32,7 +32,7 @@ const User = () => {
             </div>
           </div>
 
-          <img className="-mt-16 h-24 md:h-32" src={UserHeaderOne} alt="" />
+          <img className="-mt-16 h-24 md:h-32 group-hover:animate-wiggle" src={UserHeaderOne} alt="" />
         </div>
 
         <div className="paragraph pt-4 leading-relaxed">
@@ -43,8 +43,8 @@ const User = () => {
         </div>
       </div>
 
-      <div className="bg-green dropbox p-5 rounded-2xl">
-        <div className="flex justify-between">
+      <div className="bg-green dropbox p-5 rounded-2xl group">
+        <div className="flex justify-between group">
           <div className="flex">
             <img
               src={Profile}
@@ -59,7 +59,7 @@ const User = () => {
             </div>
           </div>
 
-          <img className="-mt-16 h-24 md:h-32" src={UserHeaderTwo} alt="" />
+          <img className="-mt-16 h-24 md:h-32 group-hover:animate-wiggle" src={UserHeaderTwo} alt="" />
         </div>
 
         <div className="paragraph pt-4 leading-relaxed">
@@ -72,8 +72,8 @@ const User = () => {
         </div>
       </div>
 
-      <div className="bg-green dropbox p-5 rounded-2xl">
-        <div className="flex justify-between">
+      <div className="bg-green dropbox p-5 rounded-2xl group">
+        <div className="flex justify-between group">
           <div className="flex">
             <img
               src={Profile}
@@ -88,7 +88,7 @@ const User = () => {
             </div>
           </div>
 
-          <img className='-mt-16 h-24 md:h-32' src={ UserHeaderOne } alt="" />
+          <img className='-mt-16 h-24 md:h-32 group-hover:animate-wiggle' src={ UserHeaderThree } alt="" />
 
         </div>
 

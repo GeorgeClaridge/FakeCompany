@@ -8,6 +8,7 @@ const Landing = () => {
       style={{ backgroundImage: `url(${Background})` }}
     >
       <div className="text-center py-10 md:py-20">
+        
         <div className="flex justify-center group">
           <div className="-ml-2 -mt-8 w-14 h-14"></div>
           <div className="Header text-4xl md:text-6xl font-space bg-no-repeat tracking-tight">

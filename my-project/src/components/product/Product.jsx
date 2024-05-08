@@ -3,8 +3,8 @@ import { Data, Build } from "./import";
 
 const Product = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 px-4 md:px-20 xl:px-60 py-10 md:py-20">
-      <div className="box bg-green dropbox rounded-2xl p-5">
+    <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-12 px-4 md:px-20 xl:px-60 2xl:px-96 py-10 md:py-20">
+      <div className="box bg-green dropbox rounded-2xl p-5 h-min">
         <div className="header font-space text-4xl">
           Design UX/UI with a personality
         </div>
@@ -44,7 +44,7 @@ const Product = () => {
 
       </div>
 
-      <div className="box bg-green dropbox rounded-2xl p-5">
+      <div className="box bg-green dropbox rounded-2xl p-5 h-min">
         <div className="header font-space text-4xl">
           Design UX/UI with a personality
         </div>

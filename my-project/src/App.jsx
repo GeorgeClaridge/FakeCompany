@@ -1,5 +1,5 @@
 import './App.css'
-import { Landing, User, Plan, Product, Navbar } from './components'
+import { Landing, User, Plan, Product, Navbar, Footer } from './components'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <User />
       <Plan />
       <Product />
-      
+      <Footer />
     </div>
   )
 }

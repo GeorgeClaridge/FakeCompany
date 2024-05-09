@@ -46,7 +46,7 @@ const Product = () => {
 
       <div className="box bg-green dropbox rounded-2xl p-5 h-min md:order-4">
         <div className="header font-space text-4xl">
-          Design UX/UI with a personality
+          Accelerating Insights using Wubble
         </div>
         <div className="paragraph pb-2 pt-4 leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
